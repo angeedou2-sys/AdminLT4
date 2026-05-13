@@ -6,9 +6,9 @@
   },
   "routes": [
     { "src": "/", "dest": "/api/login.php" },
-    { "src": "/login", "dest": "/api/login.php" },
-    { "src": "/register", "dest": "/api/register.php" },
-    { "src": "/verify", "dest": "/api/verify.php" },
-    { "src": "/index", "dest": "/api/index.php" }
+    { "src": "/api/login", "dest": "/api/login.php" },
+    { "src": "/api/register", "dest": "/api/register.php" },
+    { "src": "/api/verify", "dest": "/api/verify.php" },
+    { "src": "/api/index", "dest": "/api/index.php" }
   ]
 }
